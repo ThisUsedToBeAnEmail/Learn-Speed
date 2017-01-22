@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-	int numbers[5];
-	
+    int numbers[5];
+    
     /* populate the array .... */
     numbers[0] = 10;
     numbers[1] = 20;
@@ -11,5 +11,5 @@ int main() {
     numbers[4] = 50;
     
     printf("The 5th number in the array is %d", numbers[4]);
-	return 0;
+    return 0;
 }
